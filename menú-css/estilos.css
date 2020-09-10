@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(17, 16, 16);
+
+}
+
+
+.teclado{
+    list-style: none;
+    background-color: rgb(33, 152, 176);
+    font-size: 42px;
+    width: 400px;
+    margin: auto;
+    padding: 0;
+    text-align: center;
+   
+    
+}
+
+/*margin auto para centrar el elemnto en bloque*/
+
+.teclado li {
+    border: 4px yellow solid;
+}
+
+.teclado  li a{
+    text-decoration: none;
+    color: chartreuse;
+    font-family: fantasy;
+    display: block;
+    padding: 10px;
+}
+
+/*Para poder mnipular los elementos 'a' dentro de un elemento <li>, cambiar el 'display' a 'block', Luego le aplio un padding a cada uno de 14 px*/
+
+
+#do a:hover{
+    background-color: darkmagenta;
+    color: darkorange;
+   
+}
+
+#re a:hover{
+    background-color: hsl(62, 93%, 53%);
+    color: green;
+}
+
+#mi a:hover{
+    background-color: orangered;
+    color: black;
+}
+
+#fa a:hover{
+    background-color: blue;
+    color:red;
+}
+
+#sol a:hover{
+    background-color: rgb(236, 53, 114);
+    color: lightblue;
+}
+
+#la a:hover{
+    background-color: rgb(77, 246, 20);
+    color: rgb(231, 60, 8);
+}
+
+#si a:hover{
+    background-color: rgb(245, 138, 245);
+    color: rgb(234, 15, 106);
+}
